@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background for a clean design */
+    color: #333;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: #ffffff; /* White background for the header */
+    border-bottom: 2px solid #e0e0e0; /* Light grey border for subtle contrast */
+    padding: 15px 0;
+    color: #333; /* Darker text for readability */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+    width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #0056b3; /* Primary Blue for text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #fd7e14; /* Accent Orange on hover */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #0056b3; /* Primary Blue */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    margin: 0 0 20px 0;
+    font-size: 2.5em;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 0 0 20px 0;
+}
+
+.hero-section .btn-primary {
+    background-color: #fd7e14; /* Accent Orange */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #e96c10; /* Darker Orange on hover */
+}
+
+/* Services Section */
+.services-section {
+    background-color: #ffffff; /* White background for a clean look */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-section h2 {
+    color: #0056b3; /* Primary Blue */
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #e9ecef; /* Light grey for subtle contrast */
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card h3 {
+    color: #28a745; /* Supporting Green */
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #333; /* Default text color */
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* About Section */
+.about-section {
+    background-color: #f1f1f1; /* Light grey background for contrast */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #28a745; /* Supporting Green */
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #333;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #0056b3; /* Primary Blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon img, 
+.social-icon svg {
+    height: 24px; /* Consistent size with other icons */
+    width: 24px;
+    fill: white; /* Default color */
+    transition: filter 0.3s ease, fill 0.3s ease;
+}
+
+.social-icon:hover img,
+.social-icon:hover svg {
+    filter: brightness(0) saturate(100%) invert(55%) sepia(76%) saturate(2167%) hue-rotate(335deg) brightness(104%) contrast(101%);
+    /* Filter for PNGs */
+    fill: #fd7e14; /* Changes color on hover for SVG */
+}
+
+
+
+.social-icon:hover {
+    color: #fd7e14; /* Accent Orange on hover */
+}
+
